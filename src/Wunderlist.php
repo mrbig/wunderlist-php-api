@@ -76,7 +76,7 @@ class Wunderlist
 
         // we have no access token, the user first needs to obtain this
         // using ->authorize($redirectUrl); on the server
-        if ($this->accessToken !== null) {
+        if ($accessToken !== null) {
             // define access token
             $this->setAccessToken($accessToken);
 
